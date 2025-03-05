@@ -1,15 +1,14 @@
 .bloco4{
-background-color:#2b3943;
-padding: 35px;
+background-color:#3d464e;
 position: fixed;
 bottom: 97%;
+padding: 200px;
 left: 0;
 width: 100%;
 }
 
 .logo{
-    width: 170px;
-    height: 170px;
+    width: 158px;
     margin: 0 auto;
     display: block;
     margin-top: 30px;
@@ -17,27 +16,27 @@ width: 100%;
 }
 
 .iconecelular{
-    width: 60px;
-    height: 60px;
+    width: 45px;
+    height: 45px;
     margin-left: 10px;
 
 }
 
 .numero{
     font-family: Centaur;
-    font-size: 25px;
+    font-size: 26px;
     color: #3d464e;
 }
 
 .email{
-    width: 50px;
-    height: 50px;
+    width:45px;
+    height:45px;
     margin-left: 10px;
 }
 
 .contato{
     font-family: Centaur;
-    font-size: 25px;
+    font-size: 26px;
     color: #3d464e;
 
 }
@@ -45,18 +44,18 @@ width: 100%;
 .local{
     width: 50px;
     height: 50px;
-    margin-left: 10px;
+    margin-left: 5px;
 }
 
 .endereco{
     font-family: Centaur;
-    font-size: 25px;
+    font-size: 26px;
     color:#3d464e;
 }
 
 .titulo{
     font-family: Centaur;
-    font-size: 50px;
+    font-size: 41px;
     color: #3d464e;
     text-align: center;
 }
@@ -64,14 +63,16 @@ width: 100%;
 .bloco{
 
     border-radius: 20px;
-    width: 565px;
-    filter: drop-shadow(0 0 1rem rgb(0, 0, 0));
+    width: 580px;
+    filter: drop-shadow(0 0 1rem #000000);
     box-shadow: 1px 1px 1rem rgb(0, 0, 0);
     margin: auto;
-}
+    box-shadow: 7px 10px #3d464e;
+    border: 2px solid rgb(0, 0, 0);
 
+}
 .bloco2{
-    background-color:#2b3943;
+    background-color:#3d464e;
     padding: 22px;
     position: fixed;
     bottom: 0;
@@ -87,10 +88,9 @@ width: 100%;
     left: 0;
     width: 100%
 }
-
  .container{  /* Faz um site ser responsivo !!!!  */
     display: grid;  
     grid-gap: 5px;  
     grid-template-columns: repeat(auto-fit, 100px);
     grid-template-rows: repeat(2, 1px);  
-}
+} 
